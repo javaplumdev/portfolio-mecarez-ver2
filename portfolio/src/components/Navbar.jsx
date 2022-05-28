@@ -20,7 +20,11 @@ function Navbar() {
 			</div>
 			<motion.div
 				className="navbar-button"
-				whileHover={{ rotate: 180, cursor: 'pointer' }}
+				whileHover={{
+					rotate: 180,
+					cursor: 'pointer',
+					transition: { ease: [0.6, 0.01, -0.05, 0.95] },
+				}}
 			>
 				<svg
 					width="24"
@@ -35,8 +39,8 @@ function Navbar() {
 						x2="20.9994"
 						y2="3"
 						stroke="black"
-						stroke-width="6"
-						stroke-linecap="round"
+						strokeWidth="6"
+						strokeLinecap="round"
 					/>
 					<line
 						x1="8.97255"
@@ -44,8 +48,8 @@ function Navbar() {
 						x2="21"
 						y2="15"
 						stroke="black"
-						stroke-width="6"
-						stroke-linecap="round"
+						strokeWidth="6"
+						strokeLinecap="round"
 					/>
 				</svg>
 			</motion.div>

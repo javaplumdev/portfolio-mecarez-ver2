@@ -1,0 +1,30 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Cormorant Garamond', serif;
+	overflow-x: hidden;
+}
+
+.banner {
+	height: 90vh;
+	align-items: center;
+	display: flex;
+	justify-content: start;
+	position: relative;
+}
+
+.banner-block {
+	background-color: rgb(255, 255, 255);
+	height: 100%;
+	width: 400px;
+	position: absolute;
+	mix-blend-mode: difference;
+}
+
+.banner-marquee {
+	color: white;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+		1px 1px 0 #000;
+	font-size: 96px;
+}

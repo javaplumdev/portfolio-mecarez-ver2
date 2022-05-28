@@ -6,6 +6,12 @@
 	overflow-x: hidden;
 }
 
+.navbar-button {
+	width: 24px;
+	height: 24px;
+	overflow: hidden;
+}
+
 .banner {
 	height: 90vh;
 	align-items: center;
@@ -28,4 +34,9 @@
 		1px 1px 0 #000;
 	font-size: 96px;
 	overflow: hidden;
+}
+
+.loading {
+	height: 100vh;
+	background-color: #000;
 }

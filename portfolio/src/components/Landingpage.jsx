@@ -16,7 +16,7 @@ function LandingPage() {
 		<>
 			<Navbar />
 			{/* banner */}
-			<div className="banner container">
+			<div className="banner container d-flex justify-content-between ">
 				<motion.h1
 					variants={animateText}
 					initial="initial"
@@ -47,6 +47,21 @@ function LandingPage() {
 							CREATIVE FRONTEND DEVELOPER / UI DESIGNER
 						</h1>
 					</Marquee>
+				</motion.div>
+				<motion.div
+					className="checkWork"
+					variants={animateBannerBlock}
+					initial="initial"
+					animate="animate"
+					whileHover={{
+						scale: 1.1,
+						transition: {
+							ease: [0.6, 0.01, -0.05, 0.95],
+						},
+						cursor: 'pointer',
+					}}
+				>
+					<motion.p className="lead fw-bold">// Check works</motion.p>
 				</motion.div>
 			</div>
 			<p>Hi</p>

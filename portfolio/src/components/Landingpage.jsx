@@ -22,6 +22,7 @@ function LandingPage() {
 					initial="initial"
 					animate="animate"
 					className="fw-bold display-1"
+					style={{ height: 'auto' }}
 				>
 					Charlito Mecarez Jr.
 				</motion.h1>
@@ -64,7 +65,6 @@ function LandingPage() {
 					</Marquee>
 				</motion.div>
 			</div>
-			<p>Hi</p>
 		</>
 	);
 }
